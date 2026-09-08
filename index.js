@@ -4,3 +4,9 @@ function multiplication(){
   }
 }
 multiplication();
+function printNumbers5to10(){
+  for (let i = 1; i <= 10; i++){
+    console.log(i);
+  }
+}
+printNumbers5to10();
