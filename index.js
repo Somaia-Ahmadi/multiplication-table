@@ -1,16 +1,6 @@
-// part 1:
-function multiply(num){
-  for(let i = 1; i<=10; i++){
-    console.log(i*num)
+function multiplication(){
+  for ( let i = 1; i <= 10 ; i ++){
+    console.log(`5 * ${i} = $ {5 * i}`);
   }
 }
-multiply(5);
-
-// part 2:
-function printNumbers() {
-  for (let i = 5; i <= 10; i++) {
-    console.log(i);
-  }
-}
-
-printNumbers();
+multiplication();
